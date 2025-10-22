@@ -19,6 +19,7 @@ It showcases core bioinformatics engineering principles: scripted automation, ve
 
 ## Project Structure
 genomic_data_engineering_demo/
+
 ├── data/
 │ ├── raw/ # Downloaded HapMap example files (.ped, .map, .phe)
 │ └── processed/ # Binary PLINK data (.bed, .bim, .fam)
@@ -62,28 +63,38 @@ make
 ```
 
 What the script does 
-Step 1 — Download Data
+Step 1:  Download Data
+
 bash scripts/01_download_data.sh
 
 
 Downloads and unzips a small HapMap subset (human genotype data) into data/raw/.
 
-Step 2 — Quality Control + Association
+Step 2:   Quality Control + Association
+
+
 bash scripts/02_qc_and_assoc.sh
+
+
 Performs:
 
 PED/MAP → binary conversion
+
 Basic QC filters (--geno 0.05 --mind 0.05 --maf 0.05)
+
 Simple quantitative association using the phenotype qt.phe.
 
 Result file:
+
 results/gwas_results.qassoc
 
-Step 3 — Visualisation
+Step 3:  Visualisation
 Rscript scripts/03_visualize.R
 
 Creates:
+
 results/manhattan.png
+
 results/qqplot.pngStep 
 
 Option B- Manual execution
@@ -95,7 +106,9 @@ Rscript scripts/03_visualize.R
 
 ### 4. Output files
 results/gwas_results.qassoc :	Association results (CHR, SNP, BETA, P)
+
 results/manhattan.png :	Manhattan plot of –log₁₀(p) per chromosome
+
 results/qqplot.png : QQ plot comparing observed vs expected p-values
 
 Example top hit:
