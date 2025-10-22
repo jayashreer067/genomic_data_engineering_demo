@@ -19,21 +19,17 @@ It showcases core bioinformatics engineering principles: scripted automation, ve
 
 ## Project Structure
 genomic_data_engineering_demo/
-
 ├── data/
-│ ├── raw/ # Downloaded HapMap example files (.ped, .map, .phe)
-│ └── processed/ # Binary PLINK data (.bed, .bim, .fam)
-├── results/ # GWAS outputs and plots
+│   ├── raw/          # Downloaded HapMap example files (.ped, .map, .phe)
+│   └── processed/    # Binary PLINK data (.bed, .bim, .fam)
+├── results/          # GWAS outputs and plots
 ├── scripts/
-│ ├── 01_download_data.sh
-│ ├── 02_qc_and_assoc.sh
-│ └── 03_visualize.R
-├── environment.yml # Conda environment specification
-├── Makefile # Workflow automation
+│   ├── 01_download_data.sh
+│   ├── 02_qc_and_assoc.sh
+│   └── 03_visualize.R
+├── environment.yml   # Conda environment specification
+├── Makefile          # Workflow automation
 └── README.md
-
-
----
 
 ## Requirements
 
