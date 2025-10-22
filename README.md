@@ -48,12 +48,18 @@ genomic_data_engineering_demo/
 
 ### 2️ Create the Environment
 
+```bash
+
 conda env create -f environment.yml
 conda activate bio-demo
+```
 
 ### 3. Running the Demo
 Option A- One-command pipeline (preferred)
+
+```bash
 make
+```
 
 What the script does 
 Step 1 — Download Data
@@ -81,10 +87,11 @@ results/manhattan.png
 results/qqplot.pngStep 
 
 Option B- Manual execution
+``` bash
 bash scripts/01_download_data.sh
 bash scripts/02_qc_and_assoc.sh
 Rscript scripts/03_visualize.R
-
+```
 
 ### 4. Output files
 results/gwas_results.qassoc :	Association results (CHR, SNP, BETA, P)
@@ -119,10 +126,14 @@ One SNP (rs2222162 on chr2, p = 5.27×10⁻⁹) passed the genome-wide threshold
 In real studies, such signals require replication, population stratification checks, and biological interpretation.
 
 Reproduce Everything (from scratch)
+
+```bash
 git clone https://github.com/jayashreer067/genomic_data_engineering_demo.git
+
+
 cd genomic_data_engineering_demo
 conda activate bio-demo
 make
-
+```
 Author: Jayashree Ravi Shetty
 Last Updated: October 2025
