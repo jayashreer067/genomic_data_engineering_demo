@@ -1,0 +1,32 @@
+PLINK v1.9.0-b.7.11 64-bit (19 Aug 2025)
+Options in effect:
+  --bfile data/processed/base
+  --geno 0.05
+  --maf 0.05
+  --make-bed
+  --mind 0.05
+  --out data/processed/clean
+
+Hostname: JAYASHREE_R
+Working directory: C:\Users\jayas\genomic_data_engineering_demo
+Start time: Wed Oct 22 22:53:54 2025
+
+Random number seed: 1761170034
+15775 MB RAM detected; reserving 7887 MB for main workspace.
+83534 variants loaded from .bim file.
+89 people (89 males, 0 females) loaded from .fam.
+89 phenotype values loaded from .fam.
+0 people removed due to missing genotype data (--mind).
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 89 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.99441.
+2134 variants removed due to missing genotype data (--geno).
+23711 variants removed due to minor allele threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+57689 variants and 89 people pass filters and QC.
+Among remaining phenotypes, 44 are cases and 45 are controls.
+--make-bed to data/processed/clean.bed + data/processed/clean.bim +
+data/processed/clean.fam ... done.
+
+End time: Wed Oct 22 22:53:55 2025

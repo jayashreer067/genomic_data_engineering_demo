@@ -1,0 +1,26 @@
+PLINK v1.9.0-b.7.11 64-bit (19 Aug 2025)
+Options in effect:
+  --allow-no-sex
+  --assoc
+  --bfile data/processed/clean
+  --out results/gwas_results
+  --pheno data/raw/qt.phe
+
+Hostname: JAYASHREE_R
+Working directory: C:\Users\jayas\genomic_data_engineering_demo
+Start time: Wed Oct 22 22:53:56 2025
+
+Random number seed: 1761170036
+15775 MB RAM detected; reserving 7887 MB for main workspace.
+57689 variants loaded from .bim file.
+89 people (89 males, 0 females) loaded from .fam.
+89 phenotype values present after --pheno.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 89 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.99649.
+57689 variants and 89 people pass filters and QC.
+Phenotype data is quantitative.
+Writing QT --assoc report to results/gwas_results.qassoc ... done.
+
+End time: Wed Oct 22 22:53:56 2025

@@ -1,0 +1,7 @@
+name: bio-demo
+channels: [conda-forge, bioconda]
+dependencies:
+  - r-base>=4.0
+  - plink
+  - r-data.table
+  - r-qqman
