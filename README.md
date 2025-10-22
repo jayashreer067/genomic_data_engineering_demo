@@ -19,7 +19,7 @@ It showcases core bioinformatics engineering principles: scripted automation, ve
 
 ## Project Structure
 
-
+```bash
 genomic_data_engineering_demo/
 ├── data/
 │   ├── raw/          # Downloaded HapMap example files (.ped, .map, .phe)
@@ -32,6 +32,7 @@ genomic_data_engineering_demo/
 ├── environment.yml   # Conda environment specification
 ├── Makefile          # Workflow automation
 └── README.md
+```
 
 
 ## Requirements
