@@ -116,11 +116,28 @@ Example top hit:
 | --- | --------- | ----- | ------ | -------- |
 | 2   | rs2222162 | 10602 | -1.729 | 5.27e-09 |
 
+
+The variant rs2222162 on chromosome 2 shows a genome-wide significant association (p = 5.27 × 10⁻⁹) with a negative effect size (β = −1.729), suggesting a protective influence of the minor allele.
+
 Manhattan plot:
 ![alt text](image-1.png)
 
+Each point represents a SNP across all chromosomes.
+The x-axis shows chromosomes (1–22) and the y-axis shows statistical significance as −log₁₀(p).
+
+The red line marks the genome-wide significance threshold (p < 5 × 10⁻⁸).
+
+The blue line marks the suggestive significance threshold (p < 1 × 10⁻⁵).
+
+Only one SNP (rs2222162 on chromosome 2) surpasses the genome-wide threshold, indicating a strong association with the studied trait.
+
 QQPlot:
 ![alt text](image-2.png)
+
+The QQ plot compares observed vs. expected −log₁₀(p) values under the null hypothesis.
+Most points align along the diagonal, suggesting that the test statistics are well-calibrated and free from inflation.
+A small deviation at the tail reflects the presence of the single significant SNP identified in the Manhattan plot.
+
 
 ### What I Learned
 
