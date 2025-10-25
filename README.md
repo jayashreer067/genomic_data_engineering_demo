@@ -116,6 +116,11 @@ Example top hit:
 | --- | --------- | ----- | ------ | -------- |
 | 2   | rs2222162 | 10602 | -1.729 | 5.27e-09 |
 
+Manhattan plot:
+![alt text](image-1.png)
+
+QQPlot:
+![alt text](image-2.png)
 
 ### What I Learned
 
